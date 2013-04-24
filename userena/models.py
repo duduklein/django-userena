@@ -18,7 +18,10 @@ import datetime
 
 PROFILE_PERMISSIONS = (
             ('view_profile', 'Can view profile'),
-)
+            ('change_profile', 'Can change profile'),
+            ('delete_profile', 'Can delete profile'),
+            ('add_profile', 'Can add profile'),
+) 
 
 
 def upload_to_mugshot(instance, filename):
